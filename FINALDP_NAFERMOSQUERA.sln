@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "quadratic equation", "quadratic equation", "{79077E22-5CD6-4F6B-9908-771547059E6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadraticEquation.Core", "QuadraticEquation.Core\QuadraticEquation.Core.csproj", "{2A7265EF-3D11-4255-B484-6A40F535C23B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadraticEquation.Android", "QuadraticEquation.Android\QuadraticEquation.Android.csproj", "{A8176053-0A7D-47CF-8257-67B8EA06C22A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A7265EF-3D11-4255-B484-6A40F535C23B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A7265EF-3D11-4255-B484-6A40F535C23B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A7265EF-3D11-4255-B484-6A40F535C23B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A7265EF-3D11-4255-B484-6A40F535C23B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8176053-0A7D-47CF-8257-67B8EA06C22A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8176053-0A7D-47CF-8257-67B8EA06C22A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8176053-0A7D-47CF-8257-67B8EA06C22A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A8176053-0A7D-47CF-8257-67B8EA06C22A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8176053-0A7D-47CF-8257-67B8EA06C22A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8176053-0A7D-47CF-8257-67B8EA06C22A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A7265EF-3D11-4255-B484-6A40F535C23B} = {79077E22-5CD6-4F6B-9908-771547059E6D}
+		{A8176053-0A7D-47CF-8257-67B8EA06C22A} = {79077E22-5CD6-4F6B-9908-771547059E6D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF8060A3-8A05-45E6-90EA-F32A7B53BAEA}
+	EndGlobalSection
+EndGlobal
